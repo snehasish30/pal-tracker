@@ -7,7 +7,6 @@ namespace PalTracker
         public TimeEntryContext(DbContextOptions options) : base(options)
         {
         }
-
-        public DbSet<TimeEntryRecord> TimeEntryRecords { get; set; }
+       public DbSet<TimeEntryRecord> TimeEntryRecords { get; set; }
     }
 }

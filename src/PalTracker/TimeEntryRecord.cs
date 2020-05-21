@@ -10,7 +10,7 @@ namespace PalTracker
         public long? Id { get; set; }
 
         [Column("project_id")]
-        public long ProjectId { get; set; }
+        public long ProjectId { get; set; }        
 
         [Column("user_id")]
         public long UserId { get; set; }
